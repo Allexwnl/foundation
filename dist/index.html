@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+      <img src="9d1f1cc8-ee57-4e6b-924a-cdd719f5a487 (1).svg"
+       alt="yeet">
+        <a href="#">Home</a>
+        <a href="#">Dashboard</a>
+        <a href="https://purmerend.jarvis.bit-academy.nl/a/settings">Settings</a>
+    </nav>
+
+    <div class="dashboard">
+        <div class="grid-x grid-margin-x">
+            <div class="cell medium-12 medium-4">
+                <div class="card">
+                    <h3>programing skills</h3>
+                    <ul class="bar-graph">
+                      <li class="bar-graph-axis">
+                        <div class="bar-graph-label">100%</div>
+                        <div class="bar-graph-label">80%</div>
+                        <div class="bar-graph-label">60%</div>
+                        <div class="bar-graph-label">40%</div>
+                        <div class="bar-graph-label">20%</div>
+                        <div class="bar-graph-label">0%</div>
+                      </li>
+                      <li class="bar primary" style="height: 95%;" title="95">
+                        <div class="percent">100<span>%</span></div>
+                        <div class="description">c-taal</div>
+                      </li>
+                      <li class="bar secondary" style="height: 90%;" title="90">
+                        <div class="percent">52<span>%</span></div>
+                        <div class="description">html</div>
+                      </li>
+                      <li class="bar success" style="height: 80%;" title="80">
+                        <div class="percent">44<span>%</span></div>
+                        <div class="description">Css</div>
+                      </li>
+                      <li class="bar warning" style="height: 75%;" title="75">
+                        <div class="percent">34<span>%</span></div>
+                        <div class="description">GIT</div>
+                      </li>
+                      <li class="bar alert" style="height: 40%;" title="40">
+                        <div class="percent">24<span>%</span></div>
+                        <div class="description">Java-script</div>
+                      </li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+            <div class="cell small-12 medium-4">
+                <div class="card">
+                    <h3>leaderboard status:</h3>
+                    <img src="leader.png" alt="leader">
+                </div>
+            </div>
+            <div class="cell medium-4 medium-4">
+                <div class="card">
+                    <h3>opdrachten</h3>
+                    <ul class="stats-list text-center">
+                        <li>
+                            160 <span>opdrachten lifetime</span>
+                        </li>
+                        <li>
+                            25 <span>opdrachten deze maand</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cell medium-4 medium-4">
+              <div class="card">
+                <h3>rooster</h3>
+                <ul class="stats-list text-center">
+                  <li class="columns small-12 medium-6 large-4" data-toggle="example-tooltip" title="9:00-17:00">
+                    maandag<progress max="100" value="75"></progress>
+                  </li>
+                  <li class="columns small-12 medium-6 large-4" data-toggle="example-tooltip" title="9:00-17:00">
+                    dinsdag<progress max="100" value="75"></progress>
+                  </li>
+                  <li class="columns small-12 medium-6 large-4" data-toggle="example-tooltip" title="9:00-17:00">
+                    woensdag<progress max="100" value="75"></progress>
+                  </li>
+                  <li class="columns small-12 medium-6 large-4" data-toggle="example-tooltip" title="9:00-17:00">
+                    donderdag<progress max="100" value="75"></progress>
+                  </li>
+                  <li class="columns small-12 medium-6 large-4" data-toggle="example-tooltip" title="9:00-17:00">
+                    vrijdag<progress max="100" value="75"></progress>
+                  </li>
+                  <li class="columns small-12 medium-6 large-4" data-toggle="example-tooltip" title="9:00-17:00">
+                    zaterdag<progress max="100" value="75"></progress>
+                  </li>
+                  <li class="columns small-12 medium-6 large-4" data-toggle="example-tooltip" title="9:00-17:00">
+                    zondag<progress max="100" value="75"></progress>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/what-input@5.3.4/dist/what-input.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
